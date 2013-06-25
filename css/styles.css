@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+html 
+{ 
+  background: url('../images/northwind.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, html
+{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+
+.panel
+{
+	text-align:center;
+	position:absolute;
+	width:250px;
+	min-height:1px;
+	padding:10px;
+	border:1px solid #039;
+	background-color:#333;
+	left:50%;
+	margin-left:-125px;
+	z-index:10;
+}
+
+a
+{
+	color:#fff;
+}
+
+a:hover
+{
+	color:#093;	
+}
+
+#menu{
+	position:relative;
+	display:none;	
+}
+
+#productsForm{
+	position:absolute;
+	left:-322px;
+	top:0px;
+	width:300px;
+	min-height:1px;
+	padding:10px;
+	border:1px solid #039;
+	background-color:#333;
+}
+
+.loader{
+	position:relative;
+	margin:0px auto;
+	width:128px;
+	height:128px;
+	background:url('../images/382.gif') no-repeat;
+}
+
